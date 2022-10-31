@@ -33,8 +33,8 @@
         <span class="nav__sub-title">Database</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "mongoDB" %}
-                        <li><a href="/categories/mongoDB" class="">mongoDB (with C++) ({{category[1].size}})</a></li>
+                    {% if category[0] == "MongoDB" %}
+                        <li><a href="/categories/MongoDB" class="">MongoDB ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -42,6 +42,59 @@
                 {% for category in site.categories %}
                     {% if category[0] == "mySQL" %}
                         <li><a href="/categories/mySQL" class="">mySQL ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Server</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "AWS" %}
+                        <li><a href="/categories/AWS" class="">AWS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Docker" %}
+                        <li><a href="/categories/Docker" class="">Docker ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Front-end</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Vue" %}
+                        <li><a href="/categories/Vue" class="">Vue.js ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "React" %}
+                        <li><a href="/categories/React" class="">React ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Coding Test</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "BAEKJOON" %}
+                        <li><a href="/categories/BAEKJOON" class="">BAEKJOON ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <span class="nav__sub-title">Blog</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "retro" %}
+                        <li><a href="/categories/retro" class="">회고 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "project" %}
+                        <li><a href="/categories/project" class="">프로젝트 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

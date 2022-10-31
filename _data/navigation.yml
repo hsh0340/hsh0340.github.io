@@ -2,10 +2,10 @@
 main:
   #- title: "Home"
   #  url: "/"
-  - title: "POSTS"
-    url: /posts/
-  - title: "RETROSPECTIVE"
-    url: "/retrospective/"
+  - title: "TAGS"
+    url: /tags/
+  # - title: "RETROSPECTIVE"
+  #   url: "/retrospective/"
   - title: "ABOUT ME"
     url: /about/
 

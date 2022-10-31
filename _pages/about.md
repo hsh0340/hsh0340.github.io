@@ -1,14 +1,11 @@
 ---
+title: Portfolio
+layout: collection
 permalink: /about/
-title: "About"
-toc: true
-toc_sticky: true
-toc_label: "MYSELF"
-author_profile: true
-
-
+collection: portfolio
+entries_layout: grid
+classes: wide
+sidebar_main: true
 ---
 
-![icon](/assets/logo.ico/apple-icon-120x120.png)
-
-원하는 자기소개 상세 내용
+Sample document listing for the collection `_portfolio`.
