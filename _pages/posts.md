@@ -5,9 +5,8 @@ layout: posts
 toc: true
 toc_sticky: true
 toc_label: "MYSELF"
-author_profile: false
-sidebar:
-  nav: "posts"
+author_profile: true
+sidebar_main: true
 
 
 ---
