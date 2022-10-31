@@ -20,17 +20,17 @@ title                    : "공부중"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "HAN SEUNGHA"
-# description              : "hsh0340.github.io"
-url                      : "https://hsh0340.github.io"
+# description              : ""
+# url                      : "https://hsh0340.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-# repository               : "hsh0340/hsh0340.github.io"
+repository               : "hsh0340/hsh0340.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "공부중 📖"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  # provider               : "utterances"
+  provider               : "utterances"
   disqus:
     # shortname            : "hsh0340-github-io"
   discourse:
@@ -41,8 +41,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    # theme                : "github-light"
-    # issue_term           : "pathname" 
+    theme                : "github-light"
+    issue_term           : "pathname" 
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
