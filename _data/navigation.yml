@@ -2,9 +2,54 @@
 main:
   #- title: "Home"
   #  url: "/"
-  - title: "Introduce"
+  - title: "POSTS"
+    url: /posts/
+  - title: "RETROSPECTIVE"
+    url: "/retrospective/"
+  - title: "ABOUT ME"
     url: /about/
-  - title: "Category"
-    url: "/categories/"
-  - title: "Tags"
-    url: /tags/
+
+posts:
+  - title: Back-end
+    children:
+      - title: "Node.js"
+        url: /docs/quick-start-guide/
+      - title: "Spring"
+        url: /docs/structure/
+      # - title: "Installation"
+      #   url: /docs/installation/
+      # - title: "Upgrading"
+      #   url: /docs/upgrading/
+
+  - title: server
+    children:
+      - title: "aws"
+        url: /docs/configuration/
+      - title: "docker"
+        url: /docs/navigation/
+      # - title: "UI Text"
+      #   url: /docs/ui-text/
+      # - title: "Authors"
+      #   url: /docs/authors/
+      # - title: "Layouts"
+      #   url: /docs/layouts/
+
+  - title: Database
+    children:
+      - title: "mongoDB"
+        url: /docs/posts/
+      - title: "mySQL"
+        url: /docs/pages/
+      # - title: "Working with Collections"
+      #   url: /docs/collections/
+      # - title: "Helpers"
+      #   url: /docs/helpers/
+      # - title: "Utility Classes"
+      #   url: /docs/utility-classes/
+
+  - title: Front-end
+    children:
+      - title: "react.js"
+        url: /docs/stylesheets/
+      - title: "vue.js"
+        url: /docs/javascript/
