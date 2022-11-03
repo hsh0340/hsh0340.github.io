@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 sidebar_main: true
 
-title:  "[개발 환경 설정]Prettier, ESLint 설치 및 사용"
+title:  "[개발 환경 설정] Prettier, ESLint 설치 및 사용"
 
 categories:
   - Nodejs
@@ -18,8 +18,9 @@ last_modified_at: 2022-11-03
 
 comments: true
 ---
+<br>
 
-# Formatting과 Linting?
+# 💡 Formatting과 Linting?
 
 formatting은 세미콜론, space, quote등 코드의 아름다움..? 을 위해 지키는 것이라면,<br>
 linting은 더 엄격한 코드 구조, 문법을 위해 사용한다.<br>
@@ -49,7 +50,7 @@ root directory에 .prettierrc 파일을 생성해준다.
 
 .prettierrc 파일은 json 형태로 작성한다.
 
-```JSON
+```json
 {
   "semi": true, // 세미콜론 쓸 것인지
   "singleQuote": true, // 문자열 리터럴을 표시할 때 작은따옴표로 쓸 것인지
@@ -67,7 +68,7 @@ setting.json은 vscode가 하는 로컬 세팅을 모아놓는 곳이다.
 
 즉 이 프로젝트에만 적용되는 세팅들을 모아놓는 곳이다.
 
-```JSON
+```json
 {
   "[javascript]": { // 자바스크립트 언어에 대해서 적용할 rule
     "editor.formatOnSave": true, // 저장 시 자동으로 지워줌.
